@@ -1,0 +1,88 @@
+body {
+  background-color: #222222;
+  color: #aaaaaa;
+  text-align: center;
+  font-family: "Verdana", "Arial", Sans-serif;
+}
+
+a {
+  color: #aaaaaa;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: lighter;
+  margin: 3rem;
+}
+
+textarea {
+  background-color: #222222;
+  color: #aaaaaa;
+
+  padding: 0.5rem;
+  margin: 2rem;
+
+  font-size: 1.5rem;
+  text-align: center;
+
+  border-radius: 10px;
+  box-shadow: 0 0 0 3px #444;
+  border: 0px;
+
+  resize: none;
+  overflow: hidden;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #666;
+}
+
+#server-info {
+  padding: 0.5rem;
+  margin: 2rem;
+
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px #444;
+}
+
+table {
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 1.5rem 0.5rem;
+}
+
+#error {
+  color: #dd3333;
+}
+
+#help {
+  margin: 5rem;
+  margin-left: 33%;
+  margin-right: 33%;
+  padding: 0.5rem;
+
+  font-size: 0.9rem;
+}
+
+#help a {
+  color: #dddddd;
+}
+
+.squircle {
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 3px #444;
+
+  padding: 0.25rem;
+}
+
+#join:hover {
+  background: #223322;
+  box-shadow: 0 0 0 3px #666;
+}
+
+[v-cloak] {
+  display: none;
+}
