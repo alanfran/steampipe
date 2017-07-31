@@ -1,9 +1,9 @@
-var queryUrl = "http://localhost:8080/query/"
+var queryUrl = "https://query.nekonet.xyz/query/"
 
 var vue = new Vue({
   el: '#app',
   data: {
-    item: {},
+    item: null,
     errormsg: "",
     serverUrl: "",
     exampleServer: "zs.nekonet.xyz"
@@ -37,3 +37,5 @@ var vue = new Vue({
     }
   }
 })
+
+document.getElementById("input").focus()

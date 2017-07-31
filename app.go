@@ -17,7 +17,7 @@ type app struct {
 
 // newApp returns a new app with a given cache lifetime in seconds.
 func newApp(d time.Duration) *app {
-	a := &app{QueryCache: query.NewCache(d * time.Second)}
+	a := &app{QueryCache: query.NewCache(d)}
 	a.initRoutes()
 	return a
 }

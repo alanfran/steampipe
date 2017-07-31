@@ -35,22 +35,16 @@ textarea {
 
 textarea:focus {
   outline: none;
-  box-shadow: 0 0 0 3px #666;
+  box-shadow: 0 0 0 3px #777;
 }
 
 #server-info {
-  padding: 0.5rem;
   margin: 2rem;
+  padding: 0.5rem;
 
   border: 0px;
   border-radius: 5px;
   box-shadow: 0 0 0 3px #444;
-}
-
-table {
-  margin: auto;
-  border-collapse: separate;
-  border-spacing: 1.5rem 0.5rem;
 }
 
 #error {
@@ -58,9 +52,7 @@ table {
 }
 
 #help {
-  margin: 5rem;
-  margin-left: 33%;
-  margin-right: 33%;
+  margin: 2rem;
   padding: 0.5rem;
 
   font-size: 0.9rem;
@@ -78,9 +70,25 @@ table {
   padding: 0.25rem;
 }
 
+#join {
+  float: right;
+}
+
 #join:hover {
   background: #223322;
-  box-shadow: 0 0 0 3px #666;
+  box-shadow: 0 0 0 3px #676;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.server-info-box {
+  padding: 0.25rem;
 }
 
 [v-cloak] {
