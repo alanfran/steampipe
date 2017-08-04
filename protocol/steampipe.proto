@@ -1,0 +1,22 @@
+syntax = "proto3";
+package main;
+
+service SteamPipe {
+    rpc Query (Address) returns (Response) {}
+}
+
+message Address {
+    string addr = 1;
+}
+
+message Response {
+    string name = 1;
+	string map = 2;
+	string game = 3;
+    int32 players = 4;
+	int32 max_players = 5;
+	int32 bots = 6;
+    int32 server_Type = 7;
+	bool secured = 8;
+    string error = 9;
+}

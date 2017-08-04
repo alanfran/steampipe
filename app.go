@@ -7,7 +7,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"./query"
+	"github.com/alanfran/steampipe/query"
 )
 
 type app struct {
